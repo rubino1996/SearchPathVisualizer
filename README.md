@@ -30,3 +30,7 @@ This project was developed to help visualize graph traversal and pathfinding alg
 ## Installation
 1. Clone the repository:
 https://github.com/rubino1996/SearchPathVisualizer.git
+
+
+Ensure you have the required libraries installed:
+pip install -r requirements.txt
