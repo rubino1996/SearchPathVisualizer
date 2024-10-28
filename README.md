@@ -62,5 +62,4 @@ This command will:
 - Display detailed search steps in the console.
 - Save the resulting graph with the highlighted path as a .png file (e.g., Astar_40node.png).
 
-Here is an example visualization for A* search method in a 40 node:
 ![A-star Example](https://github.com/rubino1996/SearchPathVisualizer/blob/main/Astar_40node.png)
