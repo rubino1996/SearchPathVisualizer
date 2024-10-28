@@ -30,7 +30,7 @@ import sys
 
 def main():
     # Define the default values for filename, start, and goal
-    default_filename = "filename.txt"  # replace with you filename
+    default_filename = "filename.txt"  # replace with your filename
     default_start = "A"    # Replace with your start node
     default_goal = "Z"     # Replace with your goal node
 
