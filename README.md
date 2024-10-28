@@ -61,3 +61,6 @@ This command will:
 - Use the A* Search algorithm to find a path.
 - Display detailed search steps in the console.
 - Save the resulting graph with the highlighted path as a .png file (e.g., Astar_40node.png).
+
+Here is an example visualization for A* search method in a 40 node:
+
