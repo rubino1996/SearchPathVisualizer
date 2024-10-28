@@ -41,6 +41,16 @@ Command Line Arguments:
 6. --plot : Optional. Adds this flag to save the graph visualization with the highlighted path as a .png file.
 7. --verbose : Optional. Adds this flag for detailed step-by-step output of the search process.
 
+File Format Guidelines:
+To ensure the program reads the graph correctly, save the .txt file in the following format, where each line defines an edge between two nodes with specific coordinates and cost:
+
+- ('Node1', 'Node2', cost, [x1, y1], [x2, y2])
+
+For example:
+- ('A', 'B', 1, [2, 3], [4, 5])
+- ('B', 'C', 2, [4, 5], [6, 7])
+- ('C', 'D', 3, [6, 7], [8, 9])
+
 ## Example
 Assume you have a file 40node.txt formatted for the graph structure, and you want to find a path from node A to node Y using A* Search. To do this, you can run the following command:
 python main.py --filename "40node.txt" --start "A" --goal "Y" --search "A*" --plot --verbose
